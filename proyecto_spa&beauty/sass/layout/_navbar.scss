@@ -1,0 +1,41 @@
+header{
+    nav{
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        margin-top: 30px;
+        align-items: center;
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            li{
+                margin-right: 30px;
+            }
+            a{
+                display: flex;
+                align-items: center;
+                color: $color-blue;
+            }
+            
+
+        }
+        ul.nav-links{
+            a{
+                text-decoration: none;
+            }
+        }
+        ul.nave{
+            a.btn{
+                text-decoration: none;
+                background-color: $color-blue;
+                color: white;
+                padding: 10px 25px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+}
